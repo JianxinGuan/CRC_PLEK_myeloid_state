@@ -1,0 +1,5 @@
+entity,source_decision,evidence
+PLEK,CREDIBLE_INTRACELLULAR_MYELOID_NEUTROPHIL_ENRICHED_NOT_SPECIFIC,Neutrophil detection 0.866; 187 positive donors; donor bulk-like study-adjusted beta 0.542.
+PPBP,RARE_AMBIENT_OR_PLATELET_COMPLEX_COMPATIBLE,Neutrophil detection 0.0039; 8 positive donors; study-adjusted donor association FDR 0.337.
+PF4,RARE_STUDY_DEPENDENT_AMBIENT_COMPATIBLE,Neutrophil detection 0.0016; 8 positive donors; study-adjusted donor association FDR 0.699.
+granule3_axis,BULK_ASSOCIATION_REPRODUCED_AND_PRIMARILY_PLEK_COMPOSITION_DRIVEN,"Donor bulk-like study-adjusted beta 0.317, FDR 0.000611; does not prove direct PPBP/PF4 neutrophil transcription."

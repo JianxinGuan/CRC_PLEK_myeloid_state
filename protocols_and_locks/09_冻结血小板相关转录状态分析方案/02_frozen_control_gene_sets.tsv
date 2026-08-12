@@ -1,0 +1,27 @@
+protocol_version	control_module	gene_order	gene	direction	weight	source	frozen
+PTS-CRC-1.0.0	erythrocyte_control	1	HBB	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	2	HBA1	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	3	HBA2	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	4	ALAS2	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	5	SLC4A1	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	6	GYPA	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	7	AHSP	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	erythrocyte_control	8	EPB42	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	1	PTPRC	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	2	LST1	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	3	TYROBP	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	4	FCER1G	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	5	CTSS	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	6	CD74	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	7	HLA-DRA	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	leukocyte_control	8	CORO1A	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	1	PECAM1	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	2	VWF	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	3	EMCN	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	4	KDR	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	5	FLT1	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	6	CDH5	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	7	ENG	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	8	PLVAP	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	9	RAMP2	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE
+PTS-CRC-1.0.0	endothelial_control	10	ESAM	up	1	Stage 02 purified platelet/multilineage reference validation	TRUE

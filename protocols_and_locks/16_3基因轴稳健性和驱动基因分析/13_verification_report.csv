@@ -1,0 +1,8 @@
+"check","pass"
+"five_cohorts_1055_samples",TRUE
+"all_three_genes_present_variable",TRUE
+"nine_scores_per_cohort",TRUE
+"one_thousand_random_meta_modules",TRUE
+"random_membership_complete",TRUE
+"leave_one_cohort_complete",TRUE
+"prespecified_criteria_pass",TRUE

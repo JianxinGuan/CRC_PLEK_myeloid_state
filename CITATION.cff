@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Deconstructing a platelet-related composite transcriptional state in colorectal cancer"
+message: "Please cite the accompanying manuscript and repository."
+type: software
+authors:
+  - family-names: Guan
+    given-names: Jianxin
+  - family-names: Jiang
+    given-names: Shan
+  - family-names: Chen
+    given-names: Jiazhuang
+  - family-names: Dang
+    given-names: Yi
+  - family-names: Qin
+    given-names: Yongbin
+    email: yongbinqin1988@163.com
+repository-code: "G:/New_CRC_Platelet/23_形成论文仓库"
+license: "NOASSERTION"

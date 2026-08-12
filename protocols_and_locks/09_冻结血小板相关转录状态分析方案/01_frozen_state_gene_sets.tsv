@@ -1,0 +1,27 @@
+protocol_version	state_id	state_tier	gene_order	gene	direction	weight	interpretation	frozen
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	1	GP1BA	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	2	GP5	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	3	GP6	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	4	GP9	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	5	ITGA2B	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	6	ITGB3	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	7	MPIG6B	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	8	P2RY12	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	9	PF4	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	10	PLEK	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	11	PPBP	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	12	TREML1	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_total_state_13	primary_frozen_candidate	13	TUBB1	up	1	Overall platelet-related transcriptional state; not a direct abundance measure	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	1	GP1BA	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	2	GP5	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	3	GP6	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	4	GP9	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	5	ITGA2B	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	6	ITGB3	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	7	MPIG6B	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	8	P2RY12	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	9	TREML1	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_identity_adhesion_10	prespecified_biological_axis	10	TUBB1	up	1	Platelet identity, receptor, adhesion, signaling, and structural axis	TRUE
+PTS-CRC-1.0.0	platelet_granule_effector_3	exploratory_prespecified_axis	1	PF4	up	1	Granule/effector-associated axis; three genes and not a validated standalone module	TRUE
+PTS-CRC-1.0.0	platelet_granule_effector_3	exploratory_prespecified_axis	2	PPBP	up	1	Granule/effector-associated axis; three genes and not a validated standalone module	TRUE
+PTS-CRC-1.0.0	platelet_granule_effector_3	exploratory_prespecified_axis	3	PLEK	up	1	Granule/effector-associated axis; three genes and not a validated standalone module	TRUE

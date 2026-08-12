@@ -1,0 +1,9 @@
+check,pass
+complete_h5ad_size,True
+all_locked_genes_covered,True
+primary_tumor_cells_match,True
+neutrophil_cells_and_donors_sufficient,True
+all_cells_solo_singlet,True
+pseudobulk_created,True
+ambient_sensitivity_created,True
+donor_composition_model_created,True

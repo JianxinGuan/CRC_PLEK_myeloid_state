@@ -1,0 +1,5 @@
+"criterion","pass"
+"at_least_2_of_3_single_genes_positive_fdr",TRUE
+"all_leave_one_gene_out_positive",TRUE
+"both_technical_scores_positive",TRUE
+"matched_random_empirical_p_lt_0.05",TRUE

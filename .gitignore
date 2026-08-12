@@ -1,0 +1,25 @@
+# Local and generated files
+.Rhistory
+.RData
+.Ruserdata
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+
+# Raw/public-data downloads and local analysis objects
+*.h5ad
+*.h5
+*.rds
+*.RDS
+*.soft
+*.gz
+*.zip
+raw_data/
+cache/
+downloads/
+
+# Local machine metadata
+.DS_Store
+Thumbs.db
+*.tmp

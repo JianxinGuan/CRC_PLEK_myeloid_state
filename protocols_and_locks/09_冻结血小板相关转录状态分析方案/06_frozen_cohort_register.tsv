@@ -1,0 +1,10 @@
+cohort	current_expression_source	total_state_usable	total_state_denominator	stage10_role	restriction	endpoint_blind_stage10	protocol_version
+GSE12945	existing gene-level RDS	11	13	eligible	P2RY12 and TREML1 absent	TRUE	PTS-CRC-1.0.0
+GSE14333	verified GPL570 series matrix	13	13	eligible_after_gene-level construction	Build expression from frozen GPL570 mapping	TRUE	PTS-CRC-1.0.0
+GSE17536	existing gene-level RDS	13	13	eligible	Do not treat as independent of GSE17537 without dependence handling	TRUE	PTS-CRC-1.0.0
+GSE17537	existing gene-level RDS	13	13	eligible_same_study_family	Do not treat as independent of GSE17536 without dependence handling	TRUE	PTS-CRC-1.0.0
+GSE29621	existing gene-level RDS	13	13	eligible_conditional	Verify primary tumor subset	TRUE	PTS-CRC-1.0.0
+GSE39582	existing gene-level RDS	13	13	descriptive_anchor_not_selection	Stage 08 results known; cannot be sole confirmation cohort	TRUE	PTS-CRC-1.0.0
+GSE41258	existing gene-level RDS	11	13	eligible_conditional	P2RY12 and TREML1 absent; use primary CRC only	TRUE	PTS-CRC-1.0.0
+GSE87211	existing gene-level RDS	13	13	eligible	Endpoint semantics irrelevant in Stage 10; DSS noted for later clinical analysis	TRUE	PTS-CRC-1.0.0
+GSE71187	existing gene-level RDS	5	13	excluded	Below 70% coverage	TRUE	PTS-CRC-1.0.0

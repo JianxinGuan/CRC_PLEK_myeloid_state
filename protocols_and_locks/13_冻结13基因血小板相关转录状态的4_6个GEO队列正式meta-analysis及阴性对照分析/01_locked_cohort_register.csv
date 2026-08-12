@@ -1,0 +1,9 @@
+cohort,include_primary_os,reason,independence_role
+GSE12945,TRUE,Audited comparable OS and eligible frozen score,independent
+GSE17536,TRUE,Audited comparable OS and eligible frozen score,independent representative of study family
+GSE17537,FALSE,Same study family as GSE17536,dependent exclusion
+GSE29621,TRUE,Audited comparable OS and primary-tumor subset required,independent conditional
+GSE39582,TRUE,Audited comparable OS and eligible frozen score,descriptive anchor
+GSE41258,TRUE,Audited comparable OS and primary-CRC subset with 11 of 13 genes,independent conditional
+GSE87211,FALSE,Endpoint is DSS rather than OS,semantic exclusion
+GSE14333,FALSE,OS unavailable,endpoint exclusion

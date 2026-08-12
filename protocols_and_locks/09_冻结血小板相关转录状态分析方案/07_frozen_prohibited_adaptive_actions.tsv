@@ -1,0 +1,11 @@
+rule_id	prohibited_action	permitted_resolution	protocol_version
+P01	Add, remove, or replace genes after viewing clinical outcomes	Create a versioned revision with biological rationale and validate independently	PTS-CRC-1.0.0
+P02	Choose total versus sub-axis score using survival significance	Report all frozen scores under the stated hierarchy	PTS-CRC-1.0.0
+P03	Choose rank, mean-Z, or median-Z scoring using clinical associations	Use rank score as primary and both Z-score methods as sensitivity analyses	PTS-CRC-1.0.0
+P04	Use optimal cutpoints or minimum-P cutpoint searches as primary analysis	Use continuous scores; any cutpoint display is secondary and prespecified	PTS-CRC-1.0.0
+P05	Exclude cohorts because effect direction or P value is unfavorable	Include every technically eligible cohort and report heterogeneity	PTS-CRC-1.0.0
+P06	Relabel platelet-related transcriptional signal as platelet infiltration or abundance without source evidence	Use platelet-related or platelet-associated transcriptional state wording	PTS-CRC-1.0.0
+P07	Treat the three-gene granule/effector axis as a previously validated module	Label it exploratory and seek cross-cohort/single-cell support	PTS-CRC-1.0.0
+P08	Combine GSE17536 and GSE17537 as independent evidence without accounting for study-family dependence	Use one cohort, hierarchical handling, or explicit sensitivity analysis	PTS-CRC-1.0.0
+P09	Inspect stage, CMS, MSI, survival, recurrence, or response during Stage 10 structural analysis	Keep endpoint and phenotype fields outside the Stage 10 scoring workspace	PTS-CRC-1.0.0
+P10	Suppress failed QC, heterogeneity, control correlations, or random-module results	Report complete prespecified tables and decision status	PTS-CRC-1.0.0

@@ -1,0 +1,14 @@
+order	analysis	tier	permitted_stage	endpoint_access	protocol_version
+1	Gene coverage and missingness	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+2	Score distribution and usable variation	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+3	Identity/adhesion versus granule/effector axis relationship	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+4	Cross-cohort reproducibility of state structure	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+5	Alternative scoring concordance	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+6	Gene-to-score contribution	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+7	Leave-one-gene-out stability	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+8	Within-state pairwise coherence	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+9	Erythrocyte/leukocyte/endothelial control correlations	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+10	Matched-random module comparison	primary_outcome_blind	Stage 10	PROHIBITED	PTS-CRC-1.0.0
+11	CRC single-cell source attribution	primary_source_validation	Stage 11	PROHIBITED	PTS-CRC-1.0.0
+12	TCGA microenvironment association with purity adjustment	secondary_association	After Stages 10-11	PERMITTED_WITH_FROZEN_MODEL	PTS-CRC-1.0.0
+13	CMS, MSI, stage and survival association	secondary_clinical	After Stages 10-11	PERMITTED_WITH_FROZEN_MODEL	PTS-CRC-1.0.0

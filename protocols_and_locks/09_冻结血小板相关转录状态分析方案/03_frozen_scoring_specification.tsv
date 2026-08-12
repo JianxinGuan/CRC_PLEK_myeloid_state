@@ -1,0 +1,16 @@
+item	frozen_value	protocol_version
+primary_score	Mean within-sample percentile rank of detected frozen members	PTS-CRC-1.0.0
+rank_universe	All finite mapped gene-level expression features after removing sample and endpoint fields	PTS-CRC-1.0.0
+weights	Equal	PTS-CRC-1.0.0
+ties	Average ranks	PTS-CRC-1.0.0
+minimum_coverage	At least 70% of frozen members measurable with non-zero variance	PTS-CRC-1.0.0
+missing_gene_handling	Score detected frozen members only and report numerator/denominator; never impute absent genes	PTS-CRC-1.0.0
+three_gene_axis_rule	Requires 3/3 genes because ceiling(0.70*3)=3	PTS-CRC-1.0.0
+alternative_score_1	Mean gene-wise Z score; technical sensitivity only	PTS-CRC-1.0.0
+alternative_score_2	Median gene-wise Z score; technical sensitivity only	PTS-CRC-1.0.0
+scale_direction	Higher score means higher relative expression of state genes	PTS-CRC-1.0.0
+outcome_blinding	No survival, recurrence, response, stage, CMS, MSI, or clinical association inspected in structural analysis	PTS-CRC-1.0.0
+random_seed_base	20260808 plus a documented deterministic cohort index	PTS-CRC-1.0.0
+matched_random_modules	1000 per cohort and state	PTS-CRC-1.0.0
+random_matching	Joint expression-mean and variability strata; nearest-feature fallback documented	PTS-CRC-1.0.0
+random_exclusions	Exclude all three platelet states, erythrocyte, leukocyte, endothelial genes, blank symbols and zero-variance genes	PTS-CRC-1.0.0

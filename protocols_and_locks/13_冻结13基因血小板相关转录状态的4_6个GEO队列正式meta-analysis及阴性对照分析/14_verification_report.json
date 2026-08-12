@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "five_locked_cohorts": true,
+    "one_primary_effect_per_cohort": true,
+    "sample_audit_expression_total": true,
+    "pooled_analytic_n": true,
+    "pooled_events": true,
+    "matched_random_pooled_modules": true,
+    "finite_primary_effects": true,
+    "primary_ph_tests_pass_0_05": true
+  },
+  "primary_pooled_hr": 1.00623613846847,
+  "primary_ci": [
+    0.91067511581729,
+    1.11182478665979
+  ],
+  "primary_p": 0.902811678842765
+}

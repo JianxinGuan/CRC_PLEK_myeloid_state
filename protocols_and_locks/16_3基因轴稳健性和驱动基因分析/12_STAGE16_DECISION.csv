@@ -1,0 +1,2 @@
+"decision","primary_driver","secondary_driver","null_component","full_axis_rho","full_axis_ci_low","full_axis_ci_high","matched_random_empirical_p","interpretation"
+"ROBUST_COMPOSITE_AXIS_UNEQUAL_DRIVERS","PLEK","PPBP","PF4",0.399911934837525,0.287093426689979,0.501787615981846,0.000999000999000999,"Composite association is robust but contributions are unequal; PF4 is not individually associated."

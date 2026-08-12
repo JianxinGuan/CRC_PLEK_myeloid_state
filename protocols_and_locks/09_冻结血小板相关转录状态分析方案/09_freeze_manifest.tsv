@@ -1,0 +1,17 @@
+field	value
+protocol_id	CRC_platelet_related_transcriptional_states
+protocol_version	PTS-CRC-1.0.0
+freeze_date	2026-08-08
+status	FROZEN_BEFORE_MULTICOHORT_STRUCTURAL_ANALYSIS
+primary_state	platelet_total_state_13
+primary_gene_count	13
+prespecified_axis_1	platelet_identity_adhesion_10
+axis_1_gene_count	10
+prespecified_axis_2	platelet_granule_effector_3
+axis_2_gene_count	3
+primary_scoring	equal-weight within-sample percentile-rank mean
+stage10_mode	OUTCOME_BLIND
+source_module_sha256	090EB7A81EE2DF8708A2004EDA310C959E779941C4A50B7C60483D7EFAE02D37
+stage08_result_acknowledged	Yes; GSE39582 is descriptive anchor, not independent confirmation
+clinical_outcome_access_stage10	PROHIBITED
+amendment_rule	New semantic version plus rationale, checksums, archive, and independent validation

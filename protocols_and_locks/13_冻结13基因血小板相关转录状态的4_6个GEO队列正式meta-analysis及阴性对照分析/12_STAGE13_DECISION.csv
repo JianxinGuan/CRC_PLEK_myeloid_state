@@ -1,0 +1,11 @@
+item,observed,status
+Frozen protocol,PTS-CRC-1.0.0 verified,PASS
+Independent comparable-OS cohorts,5,PASS
+Primary analytic sample,1044 samples and 398 events,PASS
+Frozen 13-gene pooled OS effect,HR 1.006; 95% CI 0.911-1.112; p=0.903,NEGATIVE
+Stage-adjusted effect,HR 1.000; 95% CI 0.907-1.103; p=0.998,NEGATIVE
+Exclude-GSE39582 sensitivity,HR 0.950; 95% CI 0.825-1.093,ROBUST_NEGATIVE
+Exclude-GSE41258 sensitivity,HR 1.018; 95% CI 0.908-1.142,ROBUST_NEGATIVE
+Matched-random specificity,Empirical two-sided p=0.927,FAIL_SPECIFICITY
+Endothelial negative control,HR 1.150; p=0.0049,POSITIVE_CONTROL_WARNING
+Overall Stage-13 decision,No evidence for OS prognostic use; retain only as a non-prognostic biological state,DO_NOT_DEVELOP_PROGNOSTIC_MODEL

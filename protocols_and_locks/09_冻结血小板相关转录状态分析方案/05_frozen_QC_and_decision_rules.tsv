@@ -1,0 +1,15 @@
+criterion	pass_rule	caution_rule	failure_implication	protocol_version
+state_gene_coverage	>=0.70 (granule/effector requires 3/3)	Not applicable below eligibility threshold	Do not score that state in that cohort	PTS-CRC-1.0.0
+missing_expression	0 missing values among scored gene-sample cells	>0 triggers audit	Resolve mapping/data defect before scoring	PTS-CRC-1.0.0
+primary_score_sd	>=0.01 on percentile-rank scale	0.005-0.01	State has inadequate measurable spread	PTS-CRC-1.0.0
+primary_score_unique_fraction	>=0.90	0.75-0.90	Score is excessively tied	PTS-CRC-1.0.0
+primary_vs_mean_z_rho	>=0.80	0.70-0.80	Method-sensitive state	PTS-CRC-1.0.0
+primary_vs_median_z_rho	>=0.80	0.70-0.80	Method-sensitive state	PTS-CRC-1.0.0
+maximum_gene_score_abs_rho	<=0.90	0.90-0.95	Potential single-gene dominance	PTS-CRC-1.0.0
+top_minus_second_abs_rho	<=0.20	0.20-0.30	Potential single-gene dominance	PTS-CRC-1.0.0
+minimum_leave_one_out_rho	>=0.90	0.85-0.90	Unstable state membership	PTS-CRC-1.0.0
+maximum_control_abs_rho	<=0.70	0.70-0.85	Possible blood/endothelial confounding	PTS-CRC-1.0.0
+coherence_random_percentile	>=0.95	0.80-0.95	No coherence advantage over matched modules	PTS-CRC-1.0.0
+score_sd_random_percentile	>=0.95	0.80-0.95	No variability advantage over matched modules	PTS-CRC-1.0.0
+cross_cohort_availability	>=3 independent cohorts per state	2 cohorts	Insufficient evidence for cross-cohort claim	PTS-CRC-1.0.0
+cross_cohort_axis_relationship	Report cohort-specific rho and random-effects summary; no sign-based gene selection	Substantial heterogeneity must be reported, not optimized away	Treat axes as heterogeneous; do not force a pooled single module	PTS-CRC-1.0.0
