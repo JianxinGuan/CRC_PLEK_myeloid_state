@@ -13,7 +13,7 @@ for path in root.glob("*.docx"):
     replaced = False
     for i, p in enumerate(doc.paragraphs):
         if p.text.strip() == "Author contributions":
-            if i + 1 < len(doc.paragraphs) and "AUTHOR CONTRIBUTIONS REQUIRE" in doc.paragraphs[i + 1].text:
+            if i + 1 < len(doc.paragraphs) and ("AUTHOR CONTRIBUTIONS REQUIRE" in doc.paragraphs[i + 1].text or "contributed equally" in doc.paragraphs[i + 1].text):
                 doc.paragraphs[i + 1].text = new_text
                 replaced = True
     if replaced:
