@@ -1,9 +1,0 @@
-﻿comparison,evidence_layer,effect_measure,estimate,ci_low,ci_high,p_or_fdr,interpretation
-Frozen 13-gene state vs OS,GEO meta-analysis,HR,1.00623613862631,0.873597772969942,1.15901298973712,0.9087006731241,Robust negative
-3-gene axis vs neutrophil module,GEO meta-analysis,rho,0.399881949247616,0.229650423031354,0.546373217941242,0.00344412683111466,Replicated
-PLEK vs neutrophil module,GEO meta-analysis,rho,0.692958162941649,0.346156785881628,0.873148148233072,0.00857441974753109,Primary driver
-PPBP vs neutrophil module,GEO meta-analysis,rho,0.289749340760626,0.209070059500728,0.366510834058003,0.000652915688431075,Stable secondary bulk component
-PF4 vs neutrophil module,GEO meta-analysis,rho,-0.00370911080487712,-0.0895624038849172,0.0821988960122272,0.910554580891584,Null component
-3-gene state: adjusted neutrophil term,TCGA,beta,0.440422833241028,0.339362914992861,0.541482751489194,5.48248332581434e-16,Independent source association
-3-gene axis vs donor neutrophil fraction,Single-cell pseudobulk,beta,0.3172951885749158,0.1427484269398378,0.4918419502099938,0.0006113743166088,Primarily PLEK composition-driven
-PLEK vs neutrophil module,Spatial,rho,0.0806057350539131,0.0410201410026955,0.1199386784124365,0.0001353106448488,Weak; high heterogeneity; not specific

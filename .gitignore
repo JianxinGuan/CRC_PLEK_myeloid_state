@@ -23,3 +23,5 @@ downloads/
 .DS_Store
 Thumbs.db
 *.tmp
+manuscript/*_.docx
+scripts/audit_submission_manuscript.py
