@@ -4,7 +4,7 @@ This release supports audit and partial reproduction of the reported analyses. I
 
 ## Release
 
-- Release: `v1.0.1-submission`
+- Release: `v1.0.3-submission`
 - Repository: https://github.com/JianxinGuan/CRC_PLEK_myeloid_state
 - Scope: Scientific Reports submission release for the CRC PLEK-associated myeloid-state manuscript.
 
@@ -29,7 +29,7 @@ The scripts use `PROJECT_ROOT`, `OUTPUT_ROOT`, and input-specific environment va
 
 ## Exclusions
 
-Patient-level identifiable information, raw GEO/TCGA/CELLxGENE downloads, expression objects, caches, logs and local prescreening utilities are excluded. The file-level decisions are recorded in `checksums/RELEASE_INVENTORY_v1.0.1-submission.csv`.
+Patient-level identifiable information, raw GEO/TCGA/CELLxGENE downloads, expression objects, caches, logs and local prescreening utilities are excluded. The file-level decisions are recorded in `checksums/RELEASE_INVENTORY_v1.0.0-submission.csv`.
 
 ## Citation
 
