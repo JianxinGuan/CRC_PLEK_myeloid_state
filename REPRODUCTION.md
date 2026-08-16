@@ -25,7 +25,7 @@ Retrieve source data from the original repositories using the accessions listed 
 3. Run `scripts/run_modified_hartung_knapp.R` after placing the documented stage inputs in the complete analysis workspace.
 4. Compare generated estimates with the manuscript and supplementary tables.
 
-The retained scripts include some complete-workspace paths because large source and intermediate files are intentionally excluded from this lightweight release. These paths must be replaced with local project-root variables before use on another machine.
+The scripts use `PROJECT_ROOT`, `OUTPUT_ROOT`, and input-specific environment variables rather than a machine-specific absolute path. Set the five input variables below before running the meta-analysis script: `STAGE15_SPEARMAN`, `STAGE16_ROBUSTNESS`, `STAGE13_COX`, `STAGE15_ADJUSTED`, and `MNDA_SENSITIVITY`. The study-level script uses `PSEUDOBULK_SOURCE`. These files are large intermediate inputs and are intentionally excluded from this lightweight release.
 
 ## Exclusions
 

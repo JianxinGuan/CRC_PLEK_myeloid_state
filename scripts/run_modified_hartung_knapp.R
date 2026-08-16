@@ -1,14 +1,16 @@
 options(stringsAsFactors = FALSE)
 
-out_dir <- "G:/New_CRC_Platelet/22_补充数据/06_小样本meta与分析锁审计"
+project_root <- normalizePath(Sys.getenv("PROJECT_ROOT", unset = ".."), mustWork = FALSE)
+output_root <- Sys.getenv("OUTPUT_ROOT", unset = file.path(project_root, "results", "modified_hartung_knapp"))
+required_path <- function(label, variable) { p <- Sys.getenv(variable, unset = ""); if (!nzchar(p) || !file.exists(p)) stop(sprintf("Missing %s; set %s to the complete-workspace input file.", label, variable)); p }
+out_dir <- output_root
 dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
-stage15 <- read.csv("G:/New_CRC_Platelet/15_4–6个GEO队列中10基因内皮关联和3基因中性粒细胞关联的跨队列复现及meta-analysis/results/04_cohort_spearman_effects.csv")
-stage16 <- read.csv("G:/New_CRC_Platelet/16_3基因轴稳健性和驱动基因分析/results/04_cohort_robustness_effects.csv")
-stage13 <- read.csv("G:/New_CRC_Platelet/13_冻结13基因血小板相关转录状态的4–6个GEO队列正式meta-analysis及阴性对照分析/results/04_cohort_cox_effects.csv")
-adjusted <- read.csv("G:/New_CRC_Platelet/15_4–6个GEO队列中10基因内皮关联和3基因中性粒细胞关联的跨队列复现及meta-analysis/results/06_cohort_adjusted_source_models.csv")
-mnda <- read.csv("G:/New_CRC_Platelet/22_补充数据/01_M2_PLEK异质性与留一法/mnda_results/PLEK_7_vs_8_gene_MNDA_sensitivity.csv")
-
+stage15 <- read.csv(required_path("stage15 Spearman effects", "STAGE15_SPEARMAN"))
+stage16 <- read.csv(required_path("stage16 robustness effects", "STAGE16_ROBUSTNESS"))
+stage13 <- read.csv(required_path("stage13 Cox effects", "STAGE13_COX"))
+adjusted <- read.csv(required_path("stage15 adjusted source models", "STAGE15_ADJUSTED"))
+mnda <- read.csv(required_path("MNDA sensitivity results", "MNDA_SENSITIVITY"))
 meta_mkh <- function(y, se, label, scale) {
   vi <- se^2; k <- length(y)
   reml_obj <- function(tau2) {

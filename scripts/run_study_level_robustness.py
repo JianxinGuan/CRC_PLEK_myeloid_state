@@ -1,13 +1,15 @@
 from pathlib import Path
-import json
+import os
 import warnings
 
 import numpy as np
 import pandas as pd
 import statsmodels.formula.api as smf
 
-SOURCE = Path(r"G:\New_CRC_Platelet\17_单细胞来源和伪bulk复核\results\14_whole_tumor_donor_pseudobulk_and_neutrophil_fraction.csv")
-OUT = Path(r"G:\New_CRC_Platelet\22_补充数据\07_单细胞study层级稳健性")
+SOURCE = Path(os.environ.get("PSEUDOBULK_SOURCE", Path(__file__).resolve().parents[1] / "data" / "intermediate" / "whole_tumor_donor_pseudobulk_and_neutrophil_fraction.csv"))
+OUT = Path(os.environ.get("OUTPUT_ROOT", Path(__file__).resolve().parents[1] / "results" / "study_level_robustness"))
+if not SOURCE.exists():
+    raise FileNotFoundError(f"Missing pseudobulk input: {SOURCE}. Set PSEUDOBULK_SOURCE.")
 OUT.mkdir(parents=True, exist_ok=True)
 SCORES = ["PLEK", "PPBP", "PF4", "granule3_axis", "PLEK_PPBP_sensitivity"]
 
