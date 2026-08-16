@@ -9,7 +9,7 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 - `figure_data/`: compact CSV data underlying plotted figures.
 - `results/`: final supplementary tables used by the manuscript.
 - `protocols_and_locks/`: frozen analysis plans and version-control lock records.
-- `scripts/`: retained statistical and final document-production utilities. Superseded one-off editing scripts are intentionally excluded.
+- `scripts/`: retained statistical and reproducibility utilities. Internal one-off document-production scripts are intentionally excluded from the public release.
 - `environment/`: session information and figure provenance files.
 - `checksums/`: SHA-256 manifest for this repository.
 - `REPRODUCTION.md`: environment, source-data, run-order, and release limitations.
