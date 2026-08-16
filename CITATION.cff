@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Deconstructing a platelet-related composite transcriptional state in colorectal cancer"
-message: "Please cite the accompanying manuscript and repository."
+message: "Please cite the accompanying manuscript and this versioned repository release."
 type: software
 authors:
   - family-names: Guan
@@ -14,5 +14,6 @@ authors:
   - family-names: Qin
     given-names: Yongbin
     email: yongbinqin1988@163.com
-repository-code: "G:/New_CRC_Platelet/23_形成论文仓库"
-license: "NOASSERTION"
+repository-code: "https://github.com/JianxinGuan/CRC_PLEK_myeloid_state"
+license: "MIT"
+url: "https://github.com/JianxinGuan/CRC_PLEK_myeloid_state"

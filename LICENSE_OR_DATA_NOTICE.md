@@ -1,3 +1,12 @@
 # Data and licence notice
 
-This repository contains manuscript text, derived summaries, figure data, and scripts. Public GEO and TCGA source data remain subject to the licences and terms of their original repositories. No claim is made that this local path is an archival DOI or a public code repository. Before submission, replace the local path with the final public repository URL and archival DOI, if available.
+The MIT License in `LICENSE` applies only to original code in this repository.
+It does not grant rights to the manuscript text, figures, supplementary tables,
+or third-party source datasets.
+
+GEO, TCGA, and CELLxGENE data remain subject to the terms and attribution
+requirements of their original repositories. Raw expression objects and local
+clinical files are intentionally excluded from this release.
+
+Derived files are provided for research reproducibility and should be cited
+with the accompanying manuscript and the versioned repository release.

@@ -13,6 +13,19 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 - `environment/`: session information and figure provenance files.
 - `checksums/`: SHA-256 manifest for this repository.
 
+## Environment and use
+
+- R 4.5.3 was used for the modified Hartung-Knapp meta-analysis.
+- Python 3.13 was used for figure assembly, audit utilities, and document checks.
+- The release is intended for research reproducibility and audit, not clinical decision-making.
+- Public source datasets must be retrieved from their original repositories using the accession identifiers reported in the manuscript.
+
+## Citation
+
+If you use this code, derived data, or analysis workflow, please cite the accompanying manuscript and the specific GitHub release or commit used. The repository metadata in `CITATION.cff` provides the citation record.
+
+The MIT License applies only to original code. It does not relicense third-party datasets, manuscript text, figures, or supplementary materials.
+
 ## Data policy
 
 Raw GEO/TCGA downloads, H5AD/RDS expression objects, SOFT archives, and cache files are intentionally excluded because of size and redistribution constraints. The manuscript identifies the public accessions and the analysis outputs needed to audit the reported claims. Raw data should be retrieved from the original GEO/TCGA portals using the accession identifiers in the manuscript and source-stage records.
