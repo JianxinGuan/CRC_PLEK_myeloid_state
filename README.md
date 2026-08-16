@@ -12,6 +12,7 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 - `scripts/`: retained statistical and final document-production utilities. Superseded one-off editing scripts are intentionally excluded.
 - `environment/`: session information and figure provenance files.
 - `checksums/`: SHA-256 manifest for this repository.
+- `REPRODUCTION.md`: environment, source-data, run-order, and release limitations.
 
 ## Environment and use
 
