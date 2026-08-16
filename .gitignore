@@ -25,3 +25,8 @@ Thumbs.db
 *.tmp
 manuscript/*_.docx
 scripts/audit_submission_manuscript.py
+scripts/archive_r_statistics_run.py
+scripts/run_europepmc_fulltext_similarity_simulation.py
+scripts/run_local_manuscript_prescreen.py
+scripts/run_public_phrase_similarity_simulation.py
+results/modified_hartung_knapp/
