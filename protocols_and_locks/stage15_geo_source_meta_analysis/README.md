@@ -9,5 +9,4 @@ Primary decisions:
 - H1, 10-gene identity/adhesion axis with endothelial state: not replicated.
 - H2, 3-gene granule/effector axis with neutrophil state: replicated across all five cohorts.
 
-See `09_STAGE15_DECISION.csv` and `12_中文结论与论文处理建议.md` for the decision boundary and manuscript interpretation.
-
+The manuscript, Table 3, the released figure data, and the supplementary workbook provide the final decision boundary and interpretation limits. No internal-language interpretation file is required for this release.

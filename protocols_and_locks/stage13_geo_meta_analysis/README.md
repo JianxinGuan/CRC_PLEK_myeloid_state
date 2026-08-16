@@ -53,15 +53,6 @@ microenvironment variation exists in the same datasets and reinforces the need t
 adjust future TCGA association analyses for purity, stromal and endothelial
 components.
 
-## Key files
+## Released audit material
 
-- `results/02_analysis_sample_audit.csv`
-- `results/04_cohort_cox_effects.csv`
-- `results/05_random_effects_meta_summary.csv`
-- `results/06_matched_random_cox_effects.csv`
-- `results/07_matched_random_pooled_null.csv`
-- `results/08_matched_random_comparison.csv`
-- `figures/Figure_1_primary_OS_forest.png`
-- `figures/Figure_2_states_and_negative_controls.png`
-- `figures/Figure_3_matched_random_null.png`
-
+The lightweight release does not include the Stage 13 intermediate result directory or its exploratory figures. The final manuscript, its final Figure 2, the supplementary workbook, and the repository-wide SHA-256 manifest provide the released, citable presentation of these results. Full recomputation requires retrieval of the cited GEO matrices and the complete analysis workspace.

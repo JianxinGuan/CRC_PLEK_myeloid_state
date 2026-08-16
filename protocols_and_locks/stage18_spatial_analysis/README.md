@@ -1,13 +1,9 @@
-# 18_空间分析
+# Stage 18: spatial analysis
 
-本目录保存CRC Visium空间验证的锁定方案、原始H5AD、可复现脚本、患者级统计结果和论文用图。
+This lock records the CRC Visium spatial-context analysis used in the manuscript. The released repository contains the lock specification and the final figure/data summaries, but not the large H5AD objects or the original download cache.
 
-运行顺序：
+The analysis sequence was: download and verify the 14 sections; compute within-section module scores and same-spot/nearest-neighbor associations; combine paired sections within patients; and perform patient-level random-effects inference with the prespecified paired neutrophil-versus-endothelial audit.
 
-1. `scripts/01_download_spatial_h5ad.py`：下载并校验14个H5AD。
-2. `scripts/02_run_spatial_analysis.py`：切片内评分、空间相关、置换检验、患者内合并及患者级随机效应meta-analysis。
-3. `scripts/03_finalize_spatial_analysis.py`：中性粒细胞-内皮配对审计、结论表、报告及校验清单。
+The inferential unit was the patient, not the spot. Spot-level values were used for exploration and plotting only and must not be treated as independent biological replicates. The final manuscript and Supplementary Figure S3 report the retained patient-level results and their interpretation limits.
 
-核心结果见 `results/07_donor_random_effects_spatial_meta.csv`、`results/09_neutrophil_vs_endothelial_paired_audit.csv` 和 `results/10_final_spatial_conclusion_table.csv`。最终解释见 `空间分析_验证报告.md`。
-
-注意：`results/04_spot_level_scores.csv` 是探索和绘图用spot级文件，推断单位始终是患者，不可将spot作为独立重复。
+To reproduce the full spatial computation, retrieve the specified CELLxGENE collection and the corresponding scripts from the complete analysis workspace; those large inputs are intentionally excluded from this lightweight release.

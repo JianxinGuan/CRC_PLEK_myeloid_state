@@ -1,18 +1,18 @@
-# 最终论文结论锁
+# Final manuscript conclusion lock
 
-- 冻结版本：`CRC-PTS-FINAL-1.0.0`
-- 冻结日期：`2026-08-09`
-- 适用范围：基于Stage 9及Stage 13–18已经完成并锁定的计算证据，冻结论文的主结论、次要结论、阴性结论和解释边界。
-- 冻结对象：冻结13基因状态、10基因身份/黏附轴、PF4/PPBP/PLEK冻结3基因复合轴及其单基因来源解释。
+- Version: `CRC-PTS-FINAL-1.0.0`
+- Freeze date: `2026-08-09`
+- Scope: the primary, secondary, negative, and interpretive conclusions supported by the completed Stage 9 and Stage 13-18 analyses.
+- Frozen objects: the 13-gene state, the 10-gene identity/adhesion axis, the PF4/PPBP/PLEK three-gene axis, and gene-level source-context interpretations.
 
-## 最终主线
+## Final interpretation
 
-CRC bulk组织中的冻结PF4/PPBP/PLEK复合转录轴可重复地关联中性粒细胞相关炎症微环境，但这一复合状态具有不等量的基因贡献和异质的细胞来源：PLEK是主要驱动，并代表在中性粒细胞中富集但不特异的髓系内源信号；PPBP是bulk层面的稳定次级成分，但其单细胞来源与ambient RNA、血液残留或血小板–白细胞复合体相容；PF4不提供稳定独立关联。该状态不预测CRC总生存，空间支持弱、患者间异质且不具中性粒细胞特异性。
+In CRC bulk tissue, the frozen PF4/PPBP/PLEK axis reproducibly associates with a neutrophil-related inflammatory tissue state, but its gene contributions are unequal and its cellular context is heterogeneous. PLEK is the largest statistical contributor and represents an endogenous myeloid signal enriched, but not specific, to neutrophils. PPBP is a secondary bulk component whose sparse single-cell signal is compatible with ambient RNA, residual blood, or platelet-leukocyte complexes. PF4 provides no stable independent association. The state is not prognostic for overall survival, and spatial support is weak, heterogeneous, and not neutrophil-specific.
 
-## 冻结规则
+## Freeze rules
 
-1. 冻结3基因评分继续作为预设分析对象，不因结果删除PF4或重新命名2基因版本为主要发现。
-2. 生存阴性、10基因–内皮未复现、MSI/分期阴性及CMS未分析必须完整报告。
-3. 新增分析只能作为明确标记的外部验证、技术复核或实验验证，不能回写改变本版本的预设主要结论。
-4. 任何改变主结论、基因集、主要终点或队列纳入的操作均须创建新版本，并保留本版本及变更理由。
-5. 所有论文摘要、结果、讨论和图注均须符合 `results/01_final_claim_evidence_matrix.csv` 与 `results/02_forbidden_claims.csv`。
+1. Retain the prespecified three-gene score; do not remove PF4 or promote a post hoc two-gene score to the primary finding.
+2. Report the null survival result, the non-replicated 10-gene/endothelial hypothesis, the negative MSI/stage results, and the unavailable CMS analysis.
+3. New analyses may be labelled external validation, technical review, or experimental validation, but must not rewrite the frozen primary conclusions.
+4. Any change to the main conclusion, gene set, primary endpoint, or cohort register requires a new version, preservation of this lock, and a written rationale.
+5. The abstract, Results, Discussion, and figure legends must remain consistent with the final manuscript and the released supplementary workbook.
