@@ -19,6 +19,11 @@ raw_data/
 cache/
 downloads/
 
+# Submission artifacts are kept in the journal submission package, not in this code repository.
+manuscript/
+figures/
+results/Supplementary_Tables_S1-S8.xlsx
+
 # Local machine metadata
 .DS_Store
 Thumbs.db

@@ -4,10 +4,7 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 
 ## Repository contents
 
-- `manuscript/`: the final submission manuscript.
-- `figures/`: final main and supplementary figure files used by the manuscript; PDF files are the submission versions and PNG files support document embedding.
 - `figure_data/`: compact CSV data underlying plotted figures.
-- `results/`: final supplementary tables used by the manuscript.
 - `protocols_and_locks/`: frozen analysis plans and version-control lock records.
 - `scripts/`: retained statistical and reproducibility utilities. Internal one-off document-production scripts are intentionally excluded from the public release.
 - `environment/`: session information and figure provenance files.
@@ -27,7 +24,7 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 
 If you use this code, derived data, or analysis workflow, please cite the accompanying manuscript and the specific GitHub release or commit used. The repository metadata in `CITATION.cff` provides the citation record.
 
-The MIT License applies only to original code. It does not relicense third-party datasets, manuscript text, figures, or supplementary materials.
+The MIT License applies only to original code. It does not relicense third-party datasets or submitted manuscript materials, which are distributed separately through the journal submission process.
 
 ## Data policy
 

@@ -21,9 +21,9 @@ Retrieve source data from the original repositories using the accessions listed 
 ## Contents and order
 
 1. Read `protocols_and_locks/stage09_frozen_protocol/08_FROZEN_PROTOCOL.md` and the later stage lock files.
-2. Inspect the compact inputs under `figure_data/` and the reported result tables under `results/`.
+2. Inspect the compact inputs under `figure_data/`.
 3. Run `scripts/run_modified_hartung_knapp.R` after placing the documented stage inputs in the complete analysis workspace.
-4. Compare generated estimates with the manuscript and supplementary tables.
+4. Compare generated estimates with the submitted manuscript and supplementary tables.
 
 The scripts use `PROJECT_ROOT`, `OUTPUT_ROOT`, and input-specific environment variables rather than a machine-specific absolute path. Set the five input variables below before running the meta-analysis script: `STAGE15_SPEARMAN`, `STAGE16_ROBUSTNESS`, `STAGE13_COX`, `STAGE15_ADJUSTED`, and `MNDA_SENSITIVITY`. The study-level script uses `PSEUDOBULK_SOURCE`. These files are large intermediate inputs and are intentionally excluded from this lightweight release.
 
