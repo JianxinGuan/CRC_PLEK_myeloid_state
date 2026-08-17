@@ -13,6 +13,8 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 - `environment/`: session information and figure provenance files.
 - `checksums/`: SHA-256 manifest for this repository.
 - `REPRODUCTION.md`: environment, source-data, run-order, and release limitations.
+- `INPUT_DATA_DICTIONARY.md`: required derived inputs for the two key-audit scripts.
+- `run_key_audits.ps1`: validated Windows entry point for the key audits.
 
 ## Environment and use
 

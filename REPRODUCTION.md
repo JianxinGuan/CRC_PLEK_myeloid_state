@@ -27,6 +27,23 @@ Retrieve source data from the original repositories using the accessions listed 
 
 The scripts use `PROJECT_ROOT`, `OUTPUT_ROOT`, and input-specific environment variables rather than a machine-specific absolute path. Set the five input variables below before running the meta-analysis script: `STAGE15_SPEARMAN`, `STAGE16_ROBUSTNESS`, `STAGE13_COX`, `STAGE15_ADJUSTED`, and `MNDA_SENSITIVITY`. The study-level script uses `PSEUDOBULK_SOURCE`. These files are large intermediate inputs and are intentionally excluded from this lightweight release.
 
+## Windows key-audit command
+
+Install the pinned Python dependencies with `python -m pip install -r requirements.txt`. Then set the six input variables to the derived files described in `INPUT_DATA_DICTIONARY.md`. Set `RSCRIPT` only when `Rscript` is not already on the system path.
+
+```powershell
+$env:STAGE15_SPEARMAN = "C:\path\04_cohort_spearman_effects.csv"
+$env:STAGE16_ROBUSTNESS = "C:\path\04_cohort_robustness_effects.csv"
+$env:STAGE13_COX = "C:\path\04_cohort_cox_effects.csv"
+$env:STAGE15_ADJUSTED = "C:\path\06_cohort_adjusted_source_models.csv"
+$env:MNDA_SENSITIVITY = "C:\path\PLEK_7_vs_8_gene_MNDA_sensitivity.csv"
+$env:PSEUDOBULK_SOURCE = "C:\path\14_whole_tumor_donor_pseudobulk_and_neutrophil_fraction.csv"
+$env:RSCRIPT = "C:\path\Rscript.exe"
+.\run_key_audits.ps1
+```
+
+The command writes independent meta-analysis and study-level robustness outputs under `results/`.
+
 ## Exclusions
 
 Patient-level identifiable information, raw GEO/TCGA/CELLxGENE downloads, expression objects, caches, logs and local prescreening utilities are excluded. The file-level decisions are recorded in `checksums/RELEASE_INVENTORY_v1.0.3-submission.csv`.
