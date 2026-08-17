@@ -15,4 +15,4 @@ In CRC bulk tissue, the frozen PF4/PPBP/PLEK axis reproducibly associates with a
 2. Report the null survival result, the non-replicated 10-gene/endothelial hypothesis, the negative MSI/stage results, and the unavailable CMS analysis.
 3. New analyses may be labelled external validation, technical review, or experimental validation, but must not rewrite the frozen primary conclusions.
 4. Any change to the main conclusion, gene set, primary endpoint, or cohort register requires a new version, preservation of this lock, and a written rationale.
-5. The abstract, Results, Discussion, and figure legends must remain consistent with the final manuscript and the released supplementary workbook.
+5. The abstract, Results, Discussion, and figure legends must remain consistent with the final manuscript and submitted supplementary workbook.

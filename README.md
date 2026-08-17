@@ -7,7 +7,6 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 - `figure_data/`: compact CSV data underlying plotted figures.
 - `protocols_and_locks/`: frozen analysis plans and version-control lock records.
 - `scripts/`: retained statistical and reproducibility utilities. Internal one-off document-production scripts are intentionally excluded from the public release.
-- `environment/`: session information and figure provenance files.
 - `checksums/`: SHA-256 manifest for this repository.
 - `REPRODUCTION.md`: environment, source-data, run-order, and release limitations.
 - `INPUT_DATA_DICTIONARY.md`: required derived inputs for the two key-audit scripts.
@@ -16,7 +15,7 @@ This repository accompanies the manuscript **Deconstructing a platelet-related c
 ## Environment and use
 
 - R 4.5.3 was used for the modified Hartung-Knapp meta-analysis.
-- Python 3.13 was used for figure assembly, audit utilities, and document checks.
+- Python 3.13 was used for the retained audit utility.
 - The release is intended for research reproducibility and audit, not clinical decision-making.
 - Public source datasets must be retrieved from their original repositories using the accession identifiers reported in the manuscript.
 

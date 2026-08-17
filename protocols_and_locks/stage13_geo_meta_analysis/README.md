@@ -7,7 +7,7 @@ sensitivities were written to `00_ANALYSIS_LOCK.md` before outcome-model executi
 
 ## Primary analysis
 
-Five independent GEO cohorts were included: GSE12945, GSE17536, GSE29621,
+Five GEO cohorts were included: GSE12945, GSE17536, GSE29621,
 GSE39582 and GSE41258. The analytic Cox models contained 1,044 samples and 398
 deaths after requiring positive follow-up time.
 
@@ -55,4 +55,4 @@ components.
 
 ## Released audit material
 
-The lightweight release does not include the Stage 13 intermediate result directory or its exploratory figures. The final manuscript, its final Figure 2, the supplementary workbook, and the repository-wide SHA-256 manifest provide the released, citable presentation of these results. Full recomputation requires retrieval of the cited GEO matrices and the complete analysis workspace.
+The lightweight release does not include the Stage 13 intermediate result directory or exploratory figures. The submitted manuscript, Figure 2, and supplementary workbook provide the citable presentation of these results. Full recomputation requires retrieval of the cited GEO matrices and the complete analysis workspace.

@@ -11,8 +11,7 @@ This release supports audit and partial reproduction of the reported analyses. I
 ## Environment
 
 - R 4.5.3 for the modified Hartung-Knapp meta-analysis.
-- Python 3.13 for audit utilities and document/figure checks.
-- Required R/Python package versions are recorded in `environment/` where available.
+- Python 3.13 for the retained audit utility; pinned Python packages are listed in `requirements.txt`.
 
 ## Data sources
 
